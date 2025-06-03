@@ -1,5 +1,6 @@
 # app/core/config.py
-from pydantic import BaseSettings, AnyHttpUrl
+from pydantic import AnyHttpUrl
+from pydantic_settings import BaseSettings
 from typing import List
 
 class Settings(BaseSettings):
