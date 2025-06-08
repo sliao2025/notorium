@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "npm-run-all --parallel dev:next dev:backend",
-    "dev:next": "next dev --turbopack",
+    "dev:next": "next dev",
     "dev:backend": "cd backend && uvicorn app.main:app --reload --port 8000",
     "build": "next build",
     "start": "next start",

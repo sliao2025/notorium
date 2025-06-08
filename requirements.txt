@@ -1,4 +1,4 @@
 fastapi
-uvicorn
-music21
-dotenv
+uvicorn[standard]
+python-music21
+python-dotenv
